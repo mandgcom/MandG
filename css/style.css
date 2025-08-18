@@ -35,3 +35,33 @@ button {
     cursor: pointer;
 }
 
+
+/* Убираем отступы и включаем Flexbox для всего документа */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* минимум вся высота экрана */
+}
+
+/* Основная часть растягивается */
+main {
+  flex: 1;
+}
+
+/* Стили футера */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+footer a {
+  color: #ffd700; /* пример: жёлтый номер телефона */
+  text-decoration: none;
+}
+
