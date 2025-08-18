@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #f2c94c;
+    background: #9AA390;
     padding: 20px;
     text-align: center;
 }
@@ -34,3 +34,4 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
