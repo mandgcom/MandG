@@ -23,10 +23,19 @@
         <p>📞 <a href="tel:+43 66499075625">+43 664 990 75 625</a></p>
         <p>✉ Email: mandgcom@gmail.com</p>
         <form>
-            <input type="text" placeholder="Ihr Name" required>
-            <input type="email" placeholder="E-mail" required>
-            <textarea placeholder="Mitteilung" required></textarea>
-            <button type="submit">Senden</button>
+           <label>
+                Ihr Name:
+                <input type="text" name="name" placeholder="Ihr Name" required>
+           </label>
+           <label>
+                E-Mail:
+               <input type="email" name="email" placeholder="E-Mail" required>
+           </label>
+           <label>
+              Mitteilung:
+              <textarea name="message" placeholder="Ihre Mitteilung..." required></textarea>
+           </label>
+           <button type="submit">Senden</button>
         </form>
     </main>
 
@@ -36,6 +45,7 @@
 </body>
 
 </html>
+
 
 
 
