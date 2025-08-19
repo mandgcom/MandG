@@ -29,7 +29,7 @@ footer {
 }
 
 button {
-    background: #f2c94c;
+    background: #9AA390;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -64,4 +64,5 @@ footer a {
   color: #ffd700; /* пример: жёлтый номер телефона */
   text-decoration: none;
 }
+
 
