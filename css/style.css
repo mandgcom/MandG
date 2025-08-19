@@ -17,6 +17,45 @@ nav a {
     color: #000;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: #f8f8f8;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  nav a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #ff9800;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+  }
+
+  nav a:hover {
+    color: #ff9800;
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
+
 main {
     padding: 20px;
 }
@@ -64,5 +103,6 @@ footer a {
   color: #ffd700; /* пример: жёлтый номер телефона */
   text-decoration: none;
 }
+
 
 
