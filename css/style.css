@@ -43,13 +43,13 @@ nav {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #ff9800;
+    background-color: #4caf50;
     transition: width 0.3s ease;
     border-radius: 2px;
   }
 
   nav a:hover {
-    color: #ff9800;
+    color: #4caf50;
   }
 
   nav a:hover::after {
@@ -103,6 +103,7 @@ footer a {
   color: #ffd700; /* пример: жёлтый номер телефона */
   text-decoration: none;
 }
+
 
 
 
