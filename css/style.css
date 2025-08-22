@@ -152,5 +152,29 @@ footer a {
     .marquee__inner { animation: none; padding-left: 0; }
 }
 
+.about-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    flex-wrap: wrap; /* чтобы красиво ломалось на мобильных */
+}
+
+.about-photo {
+    max-width: 200px;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 
 
